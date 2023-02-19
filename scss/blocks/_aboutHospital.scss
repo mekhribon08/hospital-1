@@ -1,0 +1,31 @@
+.about-hospital {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.about-hospital__inner {
+  display: flex;
+  align-items: center;
+
+  & > img {
+    margin: 55px 55px;
+    border-radius: 20px;
+    margin-left: 120px;
+  }
+}
+
+.about-hospital__inner-content {
+  margin-left: 130px;
+
+  & h1 {
+    font-size: 30px;
+    color: tomato;
+  }
+
+  & p {
+    font-size: 16px;
+    width: 520px;
+    color: lightslategray;
+    text-shadow: 2px 4px 20px gray;
+  }
+}
