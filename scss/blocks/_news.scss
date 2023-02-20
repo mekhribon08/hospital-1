@@ -52,3 +52,27 @@
 .header__nav-footer {
   margin-top: 60px;
 }
+
+.footer__content {
+  margin-top: 80px;
+  margin-left: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.footer__content h5 {
+  font-size: 15px;
+  line-height: 2px;
+}
+
+.footer__content a {
+  color: tomato;
+}
+
+.footer__content p {
+  margin-left: 450px;
+  color: tomato;
+  font-size: 18px;
+  width: 320px;
+  text-align: end;
+}

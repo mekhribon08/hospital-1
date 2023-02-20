@@ -249,7 +249,7 @@ body {
 .about-hospital__inner > img {
   margin: 55px 55px;
   border-radius: 20px;
-  margin-left: 120px;
+  margin-left: 80px;
 }
 
 .about-hospital__inner-content {
@@ -263,7 +263,7 @@ body {
   font-size: 16px;
   width: 520px;
   color: lightslategray;
-  text-shadow: 2px 4px 20px gray;
+  line-height: 25px;
 }
 
 .news {
@@ -316,4 +316,28 @@ body {
 
 .header__nav-footer {
   margin-top: 60px;
+}
+
+.footer__content {
+  margin-top: 80px;
+  margin-left: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.footer__content h5 {
+  font-size: 15px;
+  line-height: 2px;
+}
+
+.footer__content a {
+  color: tomato;
+}
+
+.footer__content p {
+  margin-left: 450px;
+  color: tomato;
+  font-size: 18px;
+  width: 320px;
+  text-align: end;
 }/*# sourceMappingURL=main.css.map */
