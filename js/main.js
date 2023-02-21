@@ -6,6 +6,13 @@ var slider = tns({
   speed: 1000,
 });
 
+var slider1 = tns({
+  container: ".my-slider",
+  items: 1,
+  slideBy: "page",
+  autoplay: true,
+});
+
 document.addEventListener("click", (evt) => {
   orModalBtnClick(evt);
   onModalOutsideClick(evt);
