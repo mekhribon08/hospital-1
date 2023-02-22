@@ -1,5 +1,5 @@
 .my-slider > div {
-  height: 500px;
+  height: 600px;
   margin-top: 20px;
   width: 100%;
 }
@@ -18,20 +18,21 @@
 
 .hero__about {
   position: absolute;
-  margin-top: -440px;
+  margin-top: -500px;
   margin-left: 200px;
 
   & p {
     width: 300px;
     color: lightslategray;
     text-shadow: 4px 8px 10px gray;
+    font-size: 18px;
   }
 
   & h1 {
     font-size: 36px;
     width: 400px;
     color: tomato;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
 }
 

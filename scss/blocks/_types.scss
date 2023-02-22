@@ -1,5 +1,5 @@
 .types {
-  height: 900px;
+  // height: 900px;
   background-image: url(./../../picture/bg1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,27 +34,22 @@
   justify-content: center;
 
   & li {
-    width: 250px;
-    height: 150px;
+    width: 400px;
+    // height: 250px;
+    // padding: 2px 20px;
     box-shadow: tomato 1px 1px 10px;
     font-size: 25px;
     padding: 60px 60px;
     border-radius: 12px;
-    text-shadow: 4px 8px 10px #dede;
-  }
-
-  & a {
-    text-decoration: none;
-    color: #dede;
+    // text-shadow: 4px 8px 10px #dede;
   }
 }
 
 .types__list li:hover {
-  transform: rotate(360deg);
   transition: 0.3s ease;
-  background-color: #ffd;
+  background-color: #fff;
   box-shadow: 1px 1px 20px #fff;
-  border: 2px solid red;
+  border: 2px solid tomato;
 
   & a {
     color: tomato;
@@ -68,6 +63,6 @@
   width: 90px;
   padding: 2px 0px;
   background: tomato;
-  margin-left: 625px;
+  margin-left: 630px;
   margin-top: 30px;
 }

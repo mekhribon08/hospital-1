@@ -141,7 +141,7 @@ body {
 }
 
 .my-slider > div {
-  height: 500px;
+  height: 600px;
   margin-top: 20px;
   width: 100%;
 }
@@ -160,19 +160,20 @@ body {
 
 .hero__about {
   position: absolute;
-  margin-top: -440px;
+  margin-top: -500px;
   margin-left: 200px;
 }
 .hero__about p {
   width: 300px;
   color: lightslategray;
   text-shadow: 4px 8px 10px gray;
+  font-size: 18px;
 }
 .hero__about h1 {
   font-size: 36px;
   width: 400px;
   color: tomato;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .hero__about-inner {
@@ -180,7 +181,6 @@ body {
 }
 
 .types {
-  height: 900px;
   background-image: url(./../../picture/bg1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -214,25 +214,18 @@ body {
   justify-content: center;
 }
 .types__list li {
-  width: 250px;
-  height: 150px;
+  width: 400px;
   box-shadow: tomato 1px 1px 10px;
   font-size: 25px;
   padding: 60px 60px;
   border-radius: 12px;
-  text-shadow: 4px 8px 10px rgba(221, 238, 221, 0.9333333333);
-}
-.types__list a {
-  text-decoration: none;
-  color: rgba(221, 238, 221, 0.9333333333);
 }
 
 .types__list li:hover {
-  transform: rotate(360deg);
   transition: 0.3s ease;
-  background-color: #ffd;
+  background-color: #fff;
   box-shadow: 1px 1px 20px #fff;
-  border: 2px solid red;
+  border: 2px solid tomato;
 }
 .types__list li:hover a {
   color: tomato;
@@ -245,7 +238,7 @@ body {
   width: 90px;
   padding: 2px 0px;
   background: tomato;
-  margin-left: 625px;
+  margin-left: 630px;
   margin-top: 30px;
 }
 
