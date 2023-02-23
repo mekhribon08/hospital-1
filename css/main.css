@@ -302,11 +302,6 @@ body {
   justify-content: center;
   padding-bottom: 60px;
 }
-@media (max-width: 576px) {
-  .types__list {
-    justify-content: unset;
-  }
-}
 .types__list li {
   width: 300px;
   color: rgba(221, 238, 221, 0.9333333333);
@@ -433,12 +428,8 @@ body {
   display: flex;
   justify-content: center;
   padding-top: 30px;
+  flex-wrap: wrap;
   gap: 50px;
-}
-@media (max-width: 576px) {
-  .news__inner-content {
-    flex-direction: column;
-  }
 }
 
 .box {
@@ -542,7 +533,7 @@ body {
 @media (max-width: 576px) {
   .header__list {
     margin-right: 0px;
-    margin-left: 150px;
+    margin-left: 50px;
   }
 }
 

@@ -25,11 +25,8 @@
   display: flex;
   justify-content: center;
   padding-top: 30px;
+  flex-wrap: wrap;
   gap: 50px;
-
-  @media (max-width: $mobile) {
-    flex-direction: column;
-  }
 }
 
 .box {
@@ -132,7 +129,7 @@
 .header__list {
   @media (max-width: $mobile) {
     margin-right: 0px;
-    margin-left: 150px;
+    margin-left: 50px;
   }
 }
 
