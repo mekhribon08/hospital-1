@@ -358,7 +358,8 @@ body {
 }
 @media (max-width: 576px) {
   .about-hospital__inner > img {
-    width: 200px;
+    width: 300px;
+    margin-left: 45px;
     box-shadow: 8px 8px 10px gray;
   }
 }
@@ -368,7 +369,7 @@ body {
 }
 @media (max-width: 576px) {
   .about-hospital__inner-content img {
-    width: 30px;
+    width: 50px;
   }
 }
 @media (max-width: 576px) {
@@ -383,7 +384,7 @@ body {
 }
 @media (max-width: 576px) {
   .about-hospital__inner-content h1 {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 .about-hospital__inner-content p {
@@ -394,9 +395,9 @@ body {
 }
 @media (max-width: 576px) {
   .about-hospital__inner-content p {
-    font-size: 10px;
-    line-height: 15px;
-    width: 220px;
+    font-size: 15px;
+    line-height: 20px;
+    width: 280px;
   }
 }
 
@@ -443,9 +444,8 @@ body {
 @media (max-width: 576px) {
   .box {
     width: 200px;
-    height: 230px;
+    height: 250px;
     padding-top: 0;
-    margin-left: 45px;
   }
 }
 .box h4 {
@@ -457,6 +457,7 @@ body {
   .box h4 {
     width: 190px;
     padding: 0px 10px;
+    font-size: 16px;
   }
 }
 .box:hover {

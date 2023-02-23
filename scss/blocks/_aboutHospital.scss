@@ -17,7 +17,8 @@
     margin-left: 80px;
 
     @media (max-width: $mobile) {
-      width: 200px;
+      width: 300px;
+      margin-left: 45px;
       box-shadow: 8px 8px 10px gray;
     }
   }
@@ -28,7 +29,7 @@
 
   & img {
     @media (max-width: $mobile) {
-      width: 30px;
+      width: 50px;
     }
   }
 
@@ -42,7 +43,7 @@
     color: tomato;
 
     @media (max-width: $mobile) {
-      font-size: 20px;
+      font-size: 30px;
     }
   }
 
@@ -53,9 +54,9 @@
     line-height: 25px;
 
     @media (max-width: $mobile) {
-      font-size: 10px;
-      line-height: 15px;
-      width: 220px;
+      font-size: 15px;
+      line-height: 20px;
+      width: 280px;
     }
   }
 }
