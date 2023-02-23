@@ -1,6 +1,10 @@
 .news {
   background-color: rgba(138, 178, 193, 0.218);
   height: 500px;
+
+  @media (max-width: $mobile) {
+    height: 1000px;
+  }
 }
 
 .news__inner {
@@ -10,6 +14,10 @@
   & h1 {
     color: tomato;
     font-size: 35px;
+
+    @media (max-width: $mobile) {
+      font-size: 26px;
+    }
   }
 }
 
@@ -18,6 +26,10 @@
   justify-content: center;
   padding-top: 30px;
   gap: 50px;
+
+  @media (max-width: $mobile) {
+    flex-direction: column;
+  }
 }
 
 .box {
@@ -28,10 +40,22 @@
   border-radius: 20px;
   border: 1px solid #dede;
 
+  @media (max-width: $mobile) {
+    width: 200px;
+    height: 230px;
+    padding-top: 0;
+    margin-left: 45px;
+  }
+
   & h4 {
     width: 250px;
     padding-left: 50px;
     color: tomato;
+
+    @media (max-width: $mobile) {
+      width: 190px;
+      padding: 0px 10px;
+    }
   }
 
   &:hover {
@@ -40,6 +64,15 @@
     transition: 0.3s ease;
   }
 }
+
+.box img {
+  @media (max-width: $mobile) {
+    width: 40px;
+    padding-top: 15px;
+  }
+}
+
+// footer
 
 .address {
   margin-top: 120px;
@@ -58,11 +91,23 @@
   margin-left: 80px;
   display: flex;
   align-items: center;
+
+  @media (max-width: $mobile) {
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
 }
 
 .footer__content h5 {
   font-size: 15px;
   line-height: 2px;
+
+  @media (max-width: $mobile) {
+    line-height: 18px;
+    font-size: 12px;
+    text-align: center;
+  }
 }
 
 .footer__content a {
@@ -75,4 +120,28 @@
   font-size: 18px;
   width: 320px;
   text-align: end;
+
+  @media (max-width: $mobile) {
+    margin-left: 0;
+    font-size: 12px;
+    text-align: start;
+    width: 200px;
+  }
+}
+
+.header__list {
+  @media (max-width: $mobile) {
+    margin-right: 0px;
+    margin-left: 150px;
+  }
+}
+
+.header__content-list {
+  @media (max-width: $mobile) {
+    margin-left: 0;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    gap: 10px;
+  }
 }

@@ -7,19 +7,43 @@
   display: flex;
   align-items: center;
 
+  @media (max-width: $mobile) {
+    flex-direction: column;
+  }
+
   & > img {
     margin: 55px 55px;
     border-radius: 20px;
     margin-left: 80px;
+
+    @media (max-width: $mobile) {
+      width: 200px;
+      box-shadow: 8px 8px 10px gray;
+    }
   }
 }
 
 .about-hospital__inner-content {
   margin-left: 130px;
 
+  & img {
+    @media (max-width: $mobile) {
+      width: 30px;
+    }
+  }
+
+  @media (max-width: $mobile) {
+    text-align: center;
+    margin-left: 0;
+  }
+
   & h1 {
     font-size: 30px;
     color: tomato;
+
+    @media (max-width: $mobile) {
+      font-size: 20px;
+    }
   }
 
   & p {
@@ -27,6 +51,11 @@
     width: 520px;
     color: lightslategray;
     line-height: 25px;
-    // text-shadow: 2px 4px 20px gray;
+
+    @media (max-width: $mobile) {
+      font-size: 10px;
+      line-height: 15px;
+      width: 220px;
+    }
   }
 }

@@ -12,9 +12,24 @@ body {
   font-family: "Source Serif Pro", serif;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+}
+
 .header {
   box-shadow: 2px 4px 50px #dede;
   padding: 5px 0px;
+
+  @media (max-width: $mobile) {
+    padding: 20px 0px;
+  }
 }
 
 .logo {
@@ -144,5 +159,46 @@ body {
     color: black;
     font-size: 20px;
     text-decoration: none;
+  }
+}
+
+.main-header__hamburger {
+  &::before,
+  &::after {
+    cursor: pointer;
+    display: block;
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: #000;
+    margin: 5px 0;
+  }
+
+  @media (min-width: $mobile) {
+    display: none;
+  }
+
+  input:checked + & + .header__page {
+    @media (max-width: $mobile) {
+      transform: translate(0);
+      transition: 0.3s ease;
+    }
+  }
+}
+
+@media (max-width: $mobile) {
+  .header__page {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    padding: 30px;
+    background-color: #fff;
+    transform: translateX(100%);
+    transition: 0.3s ease;
+    z-index: 1;
+  }
+  .header__page ul {
+    flex-direction: column;
   }
 }

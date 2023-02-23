@@ -1,8 +1,18 @@
 .my-slider > div {
-  height: 600px;
+  height: 650px;
   margin-top: 20px;
   width: 100%;
+
+  @media (max-width: $mobile) {
+    height: 230px;
+  }
 }
+
+// .slide-img img {
+//   @media (max-width: $mobile) {
+//     height: 230px;
+//   }
+// }
 
 .tns-controls {
   display: none;
@@ -18,14 +28,25 @@
 
 .hero__about {
   position: absolute;
-  margin-top: -500px;
+  margin-top: -600px;
   margin-left: 200px;
+
+  @media (max-width: $mobile) {
+    margin-top: -680px;
+    margin-left: 50px;
+  }
 
   & p {
     width: 300px;
     color: lightslategray;
     text-shadow: 4px 8px 10px gray;
     font-size: 18px;
+
+    @media (max-width: $mobile) {
+      font-size: 10px;
+      width: 200px;
+      color: #222;
+    }
   }
 
   & h1 {
@@ -33,6 +54,12 @@
     width: 400px;
     color: tomato;
     margin-bottom: 40px;
+
+    @media (max-width: $mobile) {
+      font-size: 15px;
+      width: 200px;
+      margin-bottom: 20px;
+    }
   }
 }
 
